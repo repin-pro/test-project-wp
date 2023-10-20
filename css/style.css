@@ -249,7 +249,7 @@ body {
 
 } */
 
-.icon {   
+.icon {
     width: 21px;
     height: 21px;
     border: none;
@@ -263,4 +263,94 @@ body {
 
 .icon-inst {
     background-image: url(../img/icon2.svg);
+}
+
+.services {
+    background-color: #181818;
+    padding-top: 156px;
+    padding-bottom: 155px;
+}
+
+.services__head {
+    text-align: center;
+    margin-bottom: 138px;
+}
+
+.services__head-title {
+    font-family: "HelveticaNeueLTProLt";
+    font-size: 34px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.services__head-text {
+    font-family: "Merriweather-LightItalic";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    color: #777777;
+}
+
+
+.services__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__item {
+    max-width: 335px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services__icon {
+    background-image: url(../img/ellipse.png);
+    width: 172px;
+    height: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services__icon1 {
+    background-image: url(../img/line_graph.png);
+    width: 64px;
+    height: 54px;
+}
+
+.services__icon2 {
+    background-image: url(../img/heart.png);
+    width: 73px;
+    height: 63px;
+}
+
+.services__icon3 {
+    background-image: url(../img/cloud.png);
+    width: 64px;
+    height: 55px;
+}
+
+
+.services__title {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.services__text {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #383838;
+    text-align: center;
 }
