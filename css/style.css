@@ -354,3 +354,149 @@ body {
     color: #383838;
     text-align: center;
 }
+
+.contact {
+    padding-top: 95px;
+    padding-bottom: 154px;
+}
+
+.contact__head {
+    margin-bottom: 64px;
+}
+
+.contact__inner {}
+
+.contact__icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 153px;
+}
+
+.contact__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 130px;
+}
+
+.contact__icon {
+    margin-bottom: 12px;
+}
+
+.contact__icon1 {
+    width: 14px;
+    height: 21px;
+    background-image: url(../img/phone.png);
+}
+
+.contact__icon2 {
+    width: 16px;
+    height: 21px;
+    background-image: url(../img/pin.png);
+}
+
+.contact__icon3 {
+    width: 19px;
+    height: 13px;
+    background-image: url(../img/mail.png);
+
+}
+
+.contact__text {
+    font-family: "HelveticaNeueLTProLt";
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #898888;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.contact__text a {
+    text-decoration: none;
+    color: #898888;
+    transition: 0.3s;
+}
+
+.contact__text:hover a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.contact__form {
+    width: 770px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact__input {
+    margin-bottom: 20px;
+    height: 52px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "HelveticaNeueLTProLt";
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #898888;
+    padding-left: 25px;
+    border: 1px solid #999999;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.contact__area {
+    margin-bottom: 20px;
+    padding-left: 25px;
+    height: 195px;
+    font-family: "HelveticaNeueLTProLt";
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #898888;
+    border: 1px solid #999999;
+    resize: none;
+}
+
+.contact__btn {
+    background-color: #161616;
+    font-family: "HelveticaNeueLTProMd";
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #fefefe;
+    height: 52px;
+    cursor: pointer;
+}
+
+
+.footer {}
+
+.footer__copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "HelveticaNeueLTProMd";
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #3b3b3b;
+}
+
+/* media */
+
+@media screen and (max-width: 769px) {
+    .container {
+        width: 768px;
+    }
+}
